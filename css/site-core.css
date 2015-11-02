@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Document CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 5px;
+}
+
+body {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: #dedcdd;
+}
+
+nav {
+  border: 5px solid #aa0000; /* Ilustrativo */
+  border-radius: 5px;
+  background-color: white;
+}
+
+nav div.little_logo {
+  /*border: 2px solid black; /* Ilustrativo */
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background-image: url("../img/little-logo.jpg");
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url("../img/header-logo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: contain;
+  height:200px;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+	border-radius: 10px;
+}
+
+footer section.first {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 104px;
+	padding: 4px;
+	background-color: #aa0000;
+	position: relative;
+}
+
+
+/* ^^^^^^^^^^^^ */
+
+/* Tudo corespondente a segunda section da footer */
+
+footer section.second {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 24px;
+	text-align: center;
+	font-size: 10px;
+	padding: 8px 0 4px 0;
+	background-color: #820000;
+	color: white;
+}
