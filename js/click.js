@@ -10,6 +10,5 @@ $(function(){
 
 		$('#menu-mobile').fadeOut(500);
 	});
-
-
+  
 });

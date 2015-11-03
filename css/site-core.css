@@ -29,6 +29,11 @@ nav {
   background-color: white;
 }
 
+.menu-fixed {
+  position: fixed;
+  z-index: 99;
+}
+
 nav div.little_logo {
   /*border: 2px solid black; /* Ilustrativo */
   width: 48px;
@@ -44,6 +49,7 @@ header {
 	background-position: center;
   background-size: contain;
   height:200px;
+
   /*border: 2px solid #aa0000;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;*/

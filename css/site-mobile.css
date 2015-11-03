@@ -8,7 +8,7 @@
 
 /* Menu Mobile */
 nav div.menu-oculto {
-  /*border: 2px solid black; */
+  /*border: 2px solid black;*/
   display: inline-block;
   position: absolute;
   right: 16px;
@@ -19,7 +19,6 @@ nav div.menu-oculto {
   background-repeat: no-repeat;
   cursor: pointer;
 }
-
 
 
 /* Aparição do Menu */
