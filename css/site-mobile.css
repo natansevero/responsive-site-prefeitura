@@ -6,22 +6,7 @@
   width: 100%;
 }
 
-/* For Tablets */
-@media only screen and (min-width: 600px) {
-  .col-t-1 {width: 8.33%;}
-  .col-t-2 {width: 16.66%;}
-  .col-t-3 {width: 25%;}
-  .col-t-4 {width: 33.33%;}
-  .col-t-5 {width: 41.66%;}
-  .col-t-6 {width: 50%;}
-  .col-t-7 {width: 58.33%;}
-  .col-t-8 {width: 66.66%;}
-  .col-t-9 {width: 75%;}
-  .col-t-10 {width: 83.33%;}
-  .col-t-11 {width: 91.66%;}
-  .col-t-12 {width: 100%;}
-}
-
+/* Menu Mobile */
 nav div.menu-oculto {
   /*border: 2px solid black; */
   display: inline-block;
@@ -35,6 +20,142 @@ nav div.menu-oculto {
   cursor: pointer;
 }
 
-footer section.first div.footer-logo {
-  border: 2px solid black;
+
+
+/* Aparição do Menu */
+#menu-mobile {
+  display: none;
+	background:rgba(255,255,255, 0.9);
+	width:100%;
+	height:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index: 1000;
+}
+
+.menu-box {
+  /*border: 2px solid black;  Ilustrativo */
+	width:auto;
+	height:auto;
+  position:absolute;
+	left:38%;
+	top:25%;
+}
+
+.fechar {
+	border: 5px solid #aa0000;
+  border-radius: 10px;
+	position: absolute;
+	right: 15px;
+  top: 15px;
+	color: #aa0000;
+  font-size: 35px;
+  padding: 5px 10px;
+	cursor: pointer;
+}
+
+.fechar:hover {
+	color:#820000;
+	border-color:#820000;
+}
+
+ul.menu {
+  list-style: none;
+}
+
+ul.menu li {
+  /*border: 1px solid black; /* ilustrativo */
+	padding: 6px;
+	font-size: 22px;
+	height: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ul.menu li a {
+	/*border: 1px solid black; /* ilustrativo */
+	text-decoration: none;
+	color: #aa0000;
+  width: auto;
+  height: auto;
+}
+
+ul.menu li a:hover {
+	/*background-color: #aa0000;
+	color: white;*/
+	background-image: url("../img/underline.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+  background-size: contain;
+	padding-bottom: 2px;
+}
+
+
+
+
+
+/* footer */
+
+/* social */
+footer section.first div.social {
+	height: auto;
+  padding: 15px;
+}
+
+footer section.first div.social h2 {
+	/*border: 2px solid black; /* ilustrativo */
+  text-align: center;
+}
+
+footer section.first div.social div#phone,
+footer section.first div.social div#email,
+footer section.first div.social div#address {
+	/*border: 2px solid black; /* ilustrativo */
+	padding: 4px 0 4px 0;
+	margin: 2px 0 1px 2px;
+  text-align: center;
+}
+
+
+
+/* desc-mauriti no rodapé *5/
+/* Depois rever se esse estilo terá que ir para o Core.css */
+footer section.first div.desc-mauriti {
+  padding: 30px;
+}
+
+
+/* For Tablets */
+@media only screen and (min-width: 460px) {
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+
+  /* Menu Oculto */
+  .menu-box {
+    /*border: 2px solid black;  Ilustrativo */
+  	width:auto;
+  	height:auto;
+    position:absolute;
+  	left:44%;
+  	top:25%;
+  }
+
+  /* Div Social do Rodapé */
+  footer section.first div.social div#phone,
+  footer section.first div.social div#email,
+  footer section.first div.social div#address {
+  	/*border: 2px solid black; /* ilustrativo */
+  	margin: 2px 0 1px 17%;
+  }
 }

@@ -44,8 +44,19 @@ header {
 	background-position: center;
   background-size: contain;
   height:200px;
+  /*border: 2px solid #aa0000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;*/
 }
 
+
+
+/* Tudo relacionado ao Conteúdo do Inicio */
+section.conteudo-inicio {
+  /*border: 2px solid black; /* Ilustrativo */
+  background-color: #e8e6e7;
+  height: 1000px; /* Ilustrativo */
+}
 
 
 
@@ -59,10 +70,91 @@ footer {
 footer section.first {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	height: 104px;
+	height: auto;
 	padding: 4px;
 	background-color: #aa0000;
 	position: relative;
+}
+
+/*footer section.first div.footer-logo {
+  /*border: 2px solid black; /* Ilustrativo
+  background-image: url("../img/footer-logo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100px;
+}*/
+
+
+/* Tudo relacionado a div da classe Social */
+
+footer section.first div.social {
+	border: 2px solid #b0b0b0;
+	border-radius: 10px;
+	background-color: white;
+	display: inline-block;
+}
+
+footer section.first div.social h2 {
+	/*border: 2px solid black; /* ilustrativo */
+	margin: 2px 0 4px 2px;
+	font-size: 16px;
+	color: #aa0000;
+}
+
+footer section.first div.social div#phone {
+	/*border: 2px solid black; /* ilustrativo */
+	display: inline-block;
+	background-image: url("../img/phone.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;
+	font-weight: bold;
+}
+
+footer section.first div.social div#email {
+	/*border: 2px solid black; /* ilustrativo */
+	display: inline-block;
+	background-image: url("../img/email.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;
+	font-weight: bold;
+}
+
+footer section.first div.social div#address {
+	/*border: 2px solid black; /* ilustrativo */
+	display: inline-block;
+	background-image: url("../img/address.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;
+	font-weight: bold;
+}
+/* ^^^^^^^^^^^^ */
+
+
+
+/* Descrição Mauriti Rodapé */
+footer section.first div.desc-mauriti h1{
+	/*border: 2px solid black; /* ilustrativo */
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-size: 20px;
+	color: white;
+  text-align: center;
+}
+
+footer section.first div.desc-mauriti p{
+	/*border: 2px solid black; /* ilustrativo */
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	text-align: justify;
 }
 
 
@@ -73,7 +165,7 @@ footer section.first {
 footer section.second {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	height: 24px;
+	height: auto;
 	text-align: center;
 	font-size: 10px;
 	padding: 8px 0 4px 0;
