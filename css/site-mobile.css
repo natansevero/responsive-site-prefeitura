@@ -91,6 +91,9 @@ ul.menu li a:hover {
 }
 
 
+
+
+
 /* Conteudo Inicio */
 section.conteudo-inicio div.apresentacao p#para1, section.conteudo-inicio div.apresentacao p#para2 {
   padding: 0 30px 0 30px;
@@ -127,12 +130,8 @@ section.conteudo-inicio div.servicos { /* modificado */
 	padding: 4px 20px 4px 20px;
 }
 
-div.little-imgs {
-  background-color: #dedcdd;
-  margin-top: 10px;
-  height: auto;
-  text-align: center;
-}
+/* ^^^^^^^^^^^^ */
+
 
 /* footer */
 
@@ -190,6 +189,43 @@ footer section.first div.desc-mauriti {
   	left:44%;
   	top:25%;
   }
+
+  /* POG apar pequenos menus da Index.html */
+  section.conteudo-inicio div.governo {
+    display: block;
+    padding: 4px 10px 4px 10px;
+    margin-right: 10px;
+    position: relative;
+    left: 6%;
+  }
+
+  section.conteudo-inicio div.governo p, section.conteudo-inicio div.servicos p {
+  	/*border: 2px solid black; /* ilustrativo */
+  	display: block;
+    text-align: center;
+  }
+
+
+  section.conteudo-inicio div.governo ul li a, section.conteudo-inicio div.servicos ul li a {
+  	display: block;
+  	width: auto;
+    height: auto;
+  	padding: 10px 0 10px 0;
+    text-align: center;
+  }
+
+  /* Pequeno menu SERVIÇOS */
+  /* Algumas funcionalidades estão no CSS do pequeno MENU GOVERNO */
+
+  section.conteudo-inicio div.servicos { /* modificado */
+  	display: block;
+  	padding: 4px 10px 4px 10px;
+    position: relative;
+    margin-right: 10px;
+    left: 9%;
+  }
+
+  /* ^^^^^^^^^^^^^^ */
 
   /* Div Social do Rodapé */
   footer section.first div.social div#phone,

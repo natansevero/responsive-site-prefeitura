@@ -97,10 +97,6 @@ section.conteudo-inicio div.apresentacao p#para1, section.conteudo-inicio div.ap
 }
 
 
-
-
-
-
 /* Pequeno menu GOVERNO e alguma funcionalidades do pequeno MENU SERVIÇOS */
 
 section.conteudo-inicio div.governo {
@@ -169,9 +165,15 @@ section.conteudo-inicio div.servicos { /* modificado */
 	float: right;*/
 }
 
+/* imagens próximo ao Rodapé */
+div.little-imgs {
+  background-color: #dedcdd;
+  margin-top: 10px;
+  height: auto;
+  text-align: center;
+}
 
-
-
+/* ^^^^^^^^^^^^^^^^^^^^ */
 
 /* TALVEZ ALGUMAS PROPRIEDADES TERÃO QUE IR PARA "site-web.css" (Verificar) */
 
@@ -281,7 +283,7 @@ footer section.second {
 	height: auto;
 	text-align: center;
 	font-size: 10px;
-	padding: 8px 0 4px 0;
+	padding: 8px 4px 4px 4px;
 	background-color: #820000;
 	color: white;
 }
