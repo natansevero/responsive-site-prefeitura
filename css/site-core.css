@@ -60,8 +60,8 @@ header {
 /* Tudo relacionado ao Conteúdo do Inicio */
 section.conteudo-inicio {
   /*border: 2px solid black; /* Ilustrativo */
-  background-color: #e8e6e7;
-  height: 1000px; /* Ilustrativo */
+  background-color: white;
+  height: auto;
 }
 
 

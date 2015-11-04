@@ -127,7 +127,12 @@ section.conteudo-inicio div.servicos { /* modificado */
 	padding: 4px 20px 4px 20px;
 }
 
-
+div.little-imgs {
+  background-color: #dedcdd;
+  margin-top: 10px;
+  height: auto;
+  text-align: center;
+}
 
 /* footer */
 
