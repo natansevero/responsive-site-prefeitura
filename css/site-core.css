@@ -66,7 +66,114 @@ section.conteudo-inicio {
 
 
 
+/* Texto de Apresentação */
+section.conteudo-inicio div.apresentacao {
+	/*display: inline-block; Pode ser passado para o "site-wen.css" */
+	width: auto;
+	text-align: center; /* Está afetando somente o H1 */
+	font-size: 18px; /* Está afetando somente o H1 */
+	/*margin: 4px 0 0 56px; Pode ser passado para o "site-wen.css" */
+	padding: 6px 4px 4px 4px;
+}
 
+section.conteudo-inicio div.apresentacao h1 {
+  border: 2px solid black;
+	border-radius: 10px;
+	background-color: #aa0000;
+	color: white;
+  padding: 4px;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2px;
+	text-align: center; /* Está afetando somente o H1 */
+	font-size: 18px; /* Está afetando somente o H1 */
+}
+
+section.conteudo-inicio div.apresentacao p#para1, section.conteudo-inicio div.apresentacao p#para2 {
+	text-align: justify;
+	font-size: 16px;
+	margin-top: 8px;
+	text-indent: 20px;
+}
+
+
+
+
+
+
+/* Pequeno menu GOVERNO e alguma funcionalidades do pequeno MENU SERVIÇOS */
+
+section.conteudo-inicio div.governo {
+  margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	/*display: block;*/
+	padding: 4px;
+	background-color: #aa0000;
+	color: white;
+	/*float: left;*/
+}
+
+section.conteudo-inicio div.governo p, section.conteudo-inicio div.servicos p {
+	/*border: 2px solid black; /* ilustrativo */
+	/*display: inline-block;*/
+	margin-bottom: 4px;
+	/*margin-left: 32px;*/
+	font-size: 18px;
+}
+
+section.conteudo-inicio div.governo ul, section.conteudo-inicio div.servicos ul {
+	/*border: 2px solid black; /* ilustraivo */
+	list-style: none;
+	padding: 2px;
+}
+
+section.conteudo-inicio div.governo ul li, section.conteudo-inicio div.servicos ul li {
+	/*border: 2px solid black; /* ilustraivo */
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+section.conteudo-inicio div.governo ul li a, section.conteudo-inicio div.servicos ul li a {
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	/*display: inline-block;*/
+	width: 140px;
+	padding: 4px;
+}
+
+section.conteudo-inicio div.governo ul li a:hover, section.conteudo-inicio div.servicos ul li a:hover {
+	background-color: #c0c0c0;
+}
+
+
+/* Pequeno menu SERVIÇOS */
+/* Algumas funcionalidades estão no CSS do pequeno MENU GOVERNO */
+
+section.conteudo-inicio div.servicos { /* modificado */
+  margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 10px;
+	/*display: block;*/
+	/*padding: 4px;*/
+	background-color: #aa0000;
+	color: white;
+	/*position: absolute;
+	right: 4px;
+	margin: 4px 4px 0 0;
+	float: right;*/
+}
+
+
+
+
+
+/* TALVEZ ALGUMAS PROPRIEDADES TERÃO QUE IR PARA "site-web.css" (Verificar) */
 
 /* footer */
 footer {
