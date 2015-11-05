@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+nav div.menu-site {
+  display: none;
+}
+
 /* Menu Mobile */
 nav div.menu-oculto {
   /*border: 2px solid black;*/

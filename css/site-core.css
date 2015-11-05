@@ -113,7 +113,8 @@ section.conteudo-inicio div.governo {
 section.conteudo-inicio div.governo p, section.conteudo-inicio div.servicos p {
 	/*border: 2px solid black; /* ilustrativo */
 	/*display: inline-block;*/
-	margin-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 	/*margin-left: 32px;*/
 	font-size: 18px;
 }
@@ -159,6 +160,7 @@ section.conteudo-inicio div.servicos { /* modificado */
 	/*padding: 4px;*/
 	background-color: #aa0000;
 	color: white;
+  margin-bottom: 10px; /* Ta fazendo o papel da distancia dos pequenos menus para as pequenas imagens */
 	/*position: absolute;
 	right: 4px;
 	margin: 4px 4px 0 0;
@@ -188,7 +190,7 @@ footer section.first {
 	height: auto;
 	padding: 4px;
 	background-color: #aa0000;
-	position: relative;
+	position: relative
 }
 
 /*footer section.first div.footer-logo {
@@ -223,8 +225,8 @@ footer section.first div.social div#phone {
 	background-image: url("../img/phone.png");
 	background-repeat: no-repeat;
 	background-position: left;
-	padding: 4px 0 4px 22px;
-	margin: 2px 0 1px 2px;
+	/*padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;*/
 	font-weight: bold;
 }
 
@@ -234,8 +236,8 @@ footer section.first div.social div#email {
 	background-image: url("../img/email.png");
 	background-repeat: no-repeat;
 	background-position: left;
-	padding: 4px 0 4px 22px;
-	margin: 2px 0 1px 2px;
+	/*padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;*/
 	font-weight: bold;
 }
 
@@ -245,8 +247,8 @@ footer section.first div.social div#address {
 	background-image: url("../img/address.png");
 	background-repeat: no-repeat;
 	background-position: left;
-	padding: 4px 0 4px 22px;
-	margin: 2px 0 1px 2px;
+	/*padding: 4px 0 4px 22px;
+	margin: 2px 0 1px 2px;*/
 	font-weight: bold;
 }
 /* ^^^^^^^^^^^^ */

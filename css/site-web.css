@@ -15,6 +15,160 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+/* Relacionado a Menu de Na navegação */
+div#menu-mobile {
+  display: none;
+}
+
+nav div.menu-site {
+  /*border: 2px solid black; /* ilustrativo */
+  position: absolute;
+  right: -5px;
+  width: 495px;
+}
+
+nav div.menu-site ul.desktop-menu{
+	/*border: 2px solid black; /* ilustrativo */
+/*	display: inline-block;*/
+/*	position: relative;*/
+/*	left: 140px; /* Mesmo valor do PADDING da NAV por questão estética */
+	margin-top: 14px;
+}
+
+nav div.menu-site ul.desktop-menu li {
+	/*border: 1px solid black; /* ilustrativo */
+	display: inline;
+	font-size: 18px;
+	height: 20px;
+	color: white;
+}
+
+nav div.menu-site ul.desktop-menu li a {
+	/*border: 1px solid black; /* ilustrativo */
+	padding: 20px 10px 20px 10px;
+	text-decoration: none;
+	color: #aa0000;
+  margin-left: -5px; /* Distancia dos "Hover" */
+}
+
+nav div.menu-site ul.desktop-menu li a:hover {
+	background-color: #aa0000;
+	color: white;
+	/*background-image: url("../img/underline.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 2px;*/
+}
+
+
+nav div.menu-site ul.desktop-menu li a.selected {
+	background-color: #aa0000;
+	color: white;
+	/*background-image: url("../img/underline.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 2px;*/
+}
+
+
+/* Conteúdo do Index.html */
+section.conteudo-inicio {
+  height:;
+}
+
+
+section.conteudo-inicio div.apresentacao p#para1,
+section.conteudo-inicio div.apresentacao p#para2 {
+    padding: 0 60px 0 60px;
+}
+
+
+
+/* Pequeno menu GOVERNO e alguma funcionalidades do pequeno MENU SERVIÇOS */
+
+section.conteudo-inicio div.governo {
+  display: block;
+  padding: 4px 20px 4px 20px;
+  margin-right: 100px;
+  position: relative;
+  left: 11%;
+}
+
+section.conteudo-inicio div.governo p, section.conteudo-inicio div.servicos p {
+	/*border: 2px solid black; /* ilustrativo */
+	display: block;
+  text-align: center;
+}
+
+
+section.conteudo-inicio div.governo ul li a, section.conteudo-inicio div.servicos ul li a {
+	display: block;
+	width: auto;
+  height: auto;
+	padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+/* Pequeno menu SERVIÇOS */
+/* Algumas funcionalidades estão no CSS do pequeno MENU GOVERNO */
+
+section.conteudo-inicio div.servicos { /* modificado */
+	display: block;
+	padding: 4px 20px 4px 20px;
+  margin-right: 100px;
+  position: relative;
+  left: 14%;
+}
+
+
+/* Ajustando pequenas imagens proximas ao footer */
+div.little-imgs img {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+
+/* ^^^^^^^^^^^^ */
+
+
+
+
+
+
+
+
+
+/* footer */
+
+/* social */
+
+footer section.first div.social {
+	height: auto;
+  padding: 15px;
+}
+
+footer section.first div.social h2 {
+	/*border: 2px solid black; /* ilustrativo */
+  text-align: left;
+
+}
+
+footer section.first div.social div#phone,
+footer section.first div.social div#email,
+footer section.first div.social div#address {
+	/*border: 2px solid black; /* ilustrativo */
+	padding: 4px 0 4px 28px;
+	margin: 2px 0 1px 2px;
+}
+
+
+
+/* desc-mauriti no rodapé *5/
+/* Depois rever se esse estilo terá que ir para o Core.css */
+footer section.first div.desc-mauriti {
+  text-indent: 20px;
+  padding: 10px 30px 10px 30px;
+}
 
 
 
