@@ -136,6 +136,26 @@ section.conteudo-inicio div.servicos { /* modificado */
 
 /* ^^^^^^^^^^^^ */
 
+/* Noticias.html */
+div.noticias a {
+  text-align: center;
+}
+
+
+
+
+
+/* Pagina em-construcao.html */
+section.conteudo-em-construcao {
+  height: 200px;
+  background-size: 100% 100%;
+}
+
+
+
+
+
+
 
 /* footer */
 
@@ -230,6 +250,22 @@ footer section.first div.desc-mauriti {
   }
 
   /* ^^^^^^^^^^^^^^ */
+
+  /* notícias.html*/
+
+  div.noticias a {
+    text-align: justify;
+  }
+
+  /* ^^^^^^^^ */
+
+
+
+  /* Pagina em-construcao.html */
+  section.conteudo-em-construcao {
+    height: 300px;
+    background-size: 100% 100%;
+  }
 
   /* Div Social do Rodapé */
   footer section.first div.social div#phone,

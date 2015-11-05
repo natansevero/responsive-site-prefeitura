@@ -130,11 +130,28 @@ div.little-imgs img {
 
 /* ^^^^^^^^^^^^ */
 
+/* Noticias.html */
+div.noticias a:hover {
+	text-decoration: underline;
+}
+
+/* Noticias.html */
+
+div.noticias a {
+  text-align: justify;
+  position: relative;
+  left: 8%;
+}
 
 
+/* ^^^^^^^^ */
 
 
-
+/* Pagina em-construcao.html */
+section.conteudo-em-construcao {
+  height: 600px;
+  background-size: 100% 100%;
+}
 
 
 

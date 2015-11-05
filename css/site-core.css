@@ -76,7 +76,8 @@ section.conteudo-inicio div.apresentacao {
 	padding: 6px 4px 4px 4px;
 }
 
-section.conteudo-inicio div.apresentacao h1 {
+section.conteudo-inicio div.apresentacao h1,
+section.conteudo-noticias h1 {
   border: 2px solid black;
 	border-radius: 10px;
 	background-color: #aa0000;
@@ -176,6 +177,58 @@ div.little-imgs {
 }
 
 /* ^^^^^^^^^^^^^^^^^^^^ */
+
+
+/* Noticias.html */
+div.noticias {
+  /*border: 2px solid black;*/
+}
+
+div.noticias a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+div.noticias a div#noticia1 h2 {
+  margin-top: 2px;
+}
+
+div.noticias a div#noticia1 p,
+div.noticias a div#noticia2 p,
+div.noticias a div#noticia3 p,
+div.noticias a div#noticia4 p,
+div.noticias a div#noticia5 p,
+div.noticias a div#noticia6 p
+{
+	text-indent: 20px;
+	margin-top: 20px;
+	text-align: justify;
+	width: auto;
+	font-size: 14px;
+}
+
+div.noticias div#noticia1,
+div.noticias div#noticia2,
+div.noticias div#noticia3,
+div.noticias div#noticia4,
+div.noticias div#noticia5,
+div.noticias div#noticia6
+{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Página em-construcao.html */
+section.conteudo-em-construcao {
+	background-image: url("../img/em-construcao/em-construcao.jpg");
+	background-repeat: no-repeat;
+}
+
+
+
+
 
 /* TALVEZ ALGUMAS PROPRIEDADES TERÃO QUE IR PARA "site-web.css" (Verificar) */
 
