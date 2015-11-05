@@ -42,7 +42,7 @@ nav div.menu-oculto {
 	width:auto;
 	height:auto;
   position:absolute;
-	left:38%;
+	left:34%;
 	top:25%;
 }
 
@@ -142,7 +142,14 @@ div.noticias a {
 }
 
 
+/* ^^^^^^ */
 
+/* Noticia1.html */
+
+section.conteudo-noticia1 div p#para1, section.conteudo-noticia1 div p#para2,
+section.conteudo-noticia1 div p#para3 {
+	padding: 8px 30px 8px 30px;
+}
 
 
 /* Pagina em-construcao.html */

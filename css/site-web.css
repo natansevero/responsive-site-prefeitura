@@ -147,6 +147,15 @@ div.noticias a {
 /* ^^^^^^^^ */
 
 
+/* Noticia1.html */
+section.conteudo-noticia1 div.conteudo {
+  position: relative;
+  left: 8%;
+}
+
+
+/* ^^^^^^^^^*/
+
 /* Pagina em-construcao.html */
 section.conteudo-em-construcao {
   height: 600px;
